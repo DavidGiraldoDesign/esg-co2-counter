@@ -1,20 +1,18 @@
 :root {
     --soil: #B59E74;
     --soil-tint-4: #F6F2EB;
-
     --sunset: #F79900;
     --sunset-shade-3: #A76700;
     --sunset-tint-1: #F4AE3C;
     --sunset-tint-3: #FFD695;
 
+    font-size: 16px;
 }
 
 /* Font faces */
 @font-face {
     font-family: "TCCC-h1";
     src: url("fonts/TCCC-UnityHeadline-Medium.ttf") format("truetype");
-    font-weight: 600;
-    font-size: 64px;
 }
 
 @font-face {
@@ -41,31 +39,31 @@ body {
 /* Text styles */
 h1 {
     font-family: "TCCC-h1";
-    font-size: 64px;
+    font-size: 4rem;
     color: black;
 }
 
 h3 {
     font-family: "TCCC-h1";
-    font-size: 24px;
+    font-size: 2rem;
     color: white;
 }
 
 h4 {
     font-family: "TCCC-h1";
-    font-size: 20px;
+    font-size: 1.3rem;
     color: black;
 }
 
 p {
     font-family: "TCCC-p1";
-    font-size: 18px;
+    font-size: 1rem;
     color: black;
 }
 
 span {
     font-family: "TCCC-p1";
-    font-size: 14px;
+    font-size: 0.8rem;
     color: var(--sunset-shade-3);
 }
 
@@ -173,7 +171,7 @@ section {
     justify-content: flex-start;
     align-items: flex-start;
     background: var(--sunset);
-    width: auto;
+    width: 560px;
     height: auto;
 }
 
