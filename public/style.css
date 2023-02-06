@@ -170,10 +170,10 @@ section {
     /* The card */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background: var(--sunset);
-    width: 560px;
+    width: auto;
     height: auto;
 }
 

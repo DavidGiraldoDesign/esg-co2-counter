@@ -2,7 +2,7 @@ const ctx = document.getElementById('myPieChart');
 
 const data = {
     datasets: [{
-        data: [300, 50],
+        data: [1, 99],
         borderColor:'rgba(0,0,0,0)',
         backgroundColor: [
             'rgba(244, 174, 60, 1)',
