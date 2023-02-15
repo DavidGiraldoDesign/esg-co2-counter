@@ -143,7 +143,8 @@ setInterval(() => {
     pieChart.update();*/
     getData();
     //myObserver.notifyObservers({ lastEquivalency, previousEquivalency });
-}, 60 * 60 * 1000);
+}, 300000);
 
-
+//300000
+//60 * 60 * 1000
 
