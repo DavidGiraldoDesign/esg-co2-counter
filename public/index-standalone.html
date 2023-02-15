@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🔴 LIVE C02 Counter</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="app.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script type="module" src="Chart.js"></script>
+
+    <!--script type="module" src="./app-logic/chart.min.js"></script>
+    <script type="module" src="./app-logic/p5.js"></script-->
+
 </head>
+
 <body>
     <main>
         <section class="section-chart">
             <div class="chart-container">
                 <div id="chart-info">
-                    <h1 class="co2-value">25.923</h1>
-                    <p class="units">tons of CO2</p>
+                    <h1 class="co2-value">0</h1>
+                    <p class="units">tons of CO2 e</p>
                 </div>
                 <div id="myPieChart-container">
                     <canvas id="myPieChart"></canvas>
+                </div>
+                <div id="p5-canvas-container">
                 </div>
             </div>
         </section>
@@ -28,15 +37,16 @@
                 <div class="equivalencies">
                     <h3>This quantity represents:</h3>
                     <div class="equivalency-example">
-                        <img src="./assets/equivalency.png" alt="">
-                        <p>Commuting to work by bike.</p>
+                        <img src="./assets/equi-bike.png" alt="">
+                        <p>Commuting to work by 🚲 bike.</p>
                     </div>
                 </div>
                 <div class="footer">
                     <div class="question">
                         <div class="question-detail">
                             <h4>Do you have any questions?</h4>
-                            <span>Find the eco-managers, or scan the QR code to enter the Landing page to learn more about it.</span>
+                            <span>Find the eco-managers, or scan the QR code to enter the Landing page to learn more
+                                about it.</span>
                         </div>
                         <img src="./assets/landing-qr-code.png" alt="">
                     </div>
@@ -47,5 +57,12 @@
             </div>
         </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"
+        integrity="sha512-3WFaXQUsbGieECwv3t3DvyAkZ7pp+/rIKOQnx7NKhfwIF0u2l+DYsE2eF635ewJVj3YTU4/Ug6UqEkSTZCiSew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--script src="Scene.js"></script-->
+    <script type="module" src="app-logic.js"></script>
+
 </body>
+
 </html>

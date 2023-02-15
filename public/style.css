@@ -1,6 +1,6 @@
 :root {
     --soil: #B59E74;
-    --soil-tint-4: #F6F2EB;
+    --soil-tint-4: rgb(246, 242, 235);
     --sunset: #F79900;
     --sunset-shade-3: #A76700;
     --sunset-tint-1: #F4AE3C;
@@ -34,12 +34,13 @@
 
 body {
     background-color: var(--soil-tint-4);
+    /*font-family: 'Montserrat';*/
 }
 
 /* Text styles */
 h1 {
     font-family: "TCCC-h1";
-    font-size: 4rem;
+    font-size: 3.6rem;
     color: black;
 }
 
@@ -57,7 +58,7 @@ h4 {
 
 p {
     font-family: "TCCC-p1";
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: black;
 }
 
@@ -83,6 +84,12 @@ main {
 
 section {
     display: flex;
+}
+
+#p5-canvas-container{
+    position: absolute;
+    z-index: -1;
+
 }
 
 @media screen and (max-width: 1024px) {

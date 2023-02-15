@@ -1,5 +1,6 @@
 const ctx = document.getElementById('myPieChart');
 
+
 const data = {
     datasets: [{
         data: [1, 99],
