@@ -91,7 +91,7 @@ function counter() {
 
 async function getData() {
     const request = await fetch(URL);
-    const {counter} = await request.json();
+    const { counter } = await request.json();
     newValue = counter;
     console.log(`Fetch C02e: ${newValue}`)
     getEquivaleny(newValue);
@@ -135,7 +135,7 @@ function getEquivaleny(value) {
         //previousEquivalency = equivalencyList[i].fraction;
     }
 }
-
+getData();
 setInterval(() => {
     //counter();
     /*getEquivaleny(newValue);
